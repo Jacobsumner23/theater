@@ -1,0 +1,208 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body {
+    line-height: 2.0;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.navbar-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    font-size: larger;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+    margin-right: 5%;
+}
+
+.nav-item {
+    width: 100%;
+    height: 100%;
+    font-size: small;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+a:hover {
+    color: rgb(229, 5, 5);
+}
+
+.header {
+    color: white;
+    text-align: center;
+}
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: -30%;
+    margin-bottom: 26%;
+    font-size: 5em;
+    font-weight: 400;
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    
+}
+
+
+.local-plays { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2%;
+
+}
+.plays-container {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 65%; 
+    padding-top: 30px;
+    margin-left: 17%;
+    margin-top: 1%;
+    border-bottom: 1.5px solid lightgray;
+}
+h2 {
+    text-align: justify;
+    text-indent: 4%;
+    border: 1px solid gray;
+    width: 65%;
+    margin-left: 17%;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-weight: 400;
+}
+
+.playimg {
+    width: 200px;
+    height: 160px;
+}
+.play-info {
+    width: 100%;
+    margin-left: 35px;
+
+}
+.play-name {
+    font-weight: 500;
+    font-size: large;
+
+}
+.info {
+    text-align: justify;
+    
+}
+.read-more, button {
+    margin-left: 75%;
+    align-items: center;
+    background-color: orange;
+    color: white;
+    font-size: 1.2em;
+    border: 1px solid black;
+    height: 50px;
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -20%;
+}
+
+footer {
+    margin-bottom: 0px;
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: center;
+    line-height: 3;
+}
+
+.map {
+    width: 250px;
+    padding: 2%;
+    padding-left: 80px;
+
+}
+
+.mapimg {
+    width: 250px;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0,6em;
+}
+
+.footshows {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0,6em;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0,6em;
+}
+
+.foothead {
+    font-size: 1.8em;
+
+}
+
+.tiny {
+    margin: 3px;
+
+}
